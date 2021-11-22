@@ -1,8 +1,10 @@
+import dotenv from 'dotenv';
+
 const getSquare = (radius: number): number => {
   return Math.PI * radius * radius;
 }
 
-require('dotenv').config();
+dotenv.config();
 
 const stringRadius = process.env.radius;
 

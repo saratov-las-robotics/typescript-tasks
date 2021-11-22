@@ -2,7 +2,7 @@
   "type": "module",
   "scripts": {
     "start": "tsc && npm-run-all -y -p build watch",
-    "watch": "nodemon -e js -q dist/library.js -r dotenv/config .env",
+    "watch": "nodemon -e js -q dist/circle.js -r dotenv/config .env",
     "build": "tsc --watch",
     "minify": "uglifyjs dist/library.types.js -c -m -o dist/library.types.js && uglifyjs dist/library.js -c -m -o dist/library.js",
     "lint": "eslint --ext .ts ./src"
@@ -10,7 +10,6 @@
   "dependencies": {
     "dotenv": "^10.0.0",
     "nodemon": "^2.0.13",
-    "prompt-sync": "^4.2.0",
     "readline-sync": "^1.4.10"
   },
   "devDependencies": {
