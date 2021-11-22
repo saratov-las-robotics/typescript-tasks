@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "es6",
+    "lib": [
+        "es2020"
+    ],
+    "moduleResolution": "node",
+    "outDir": "dist",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": false, // education purpose only
+    "skipDefaultLibCheck": true,
+    "skipLibCheck": true
+  },
+ "include": [
+    "src",
+  ],
+}
