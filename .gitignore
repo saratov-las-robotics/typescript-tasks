@@ -72,8 +72,6 @@ src/fe/env-config.js
 *.gen
 **/mochawesome-report/*
 
-**/.env
-
 
 dist
 library.data
